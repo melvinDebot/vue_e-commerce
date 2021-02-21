@@ -82,7 +82,7 @@ export default {
     onSubmit(e) {
       e.preventDefault();
       if (this.form.user == "admin" && this.form.pass == "456789") {
-        this.$ref["my-modal"].hide();
+        this.$refs["my-modal"].hide();
         this.$router.push("/admin");
         localStorage.setItem("admin", JSON.stringify("true"));
       } else {

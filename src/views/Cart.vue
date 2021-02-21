@@ -50,6 +50,9 @@
                 </b-col>
               </b-row>
             </template>
+
+            <!-- A VOIR -->
+
             <!-- <template slot="modal-product">
               <b-col class="text-center">
                 <b-img
@@ -104,7 +107,7 @@
           >
         </template>
         <p class="mb-4">Product :</p>
-        <ul v-for="productFinal in ticket.product" :key="productFinal.id">
+        <ul v-for="productFinal in ticket.products" :key="productFinal.id">
           <li>Product name : {{ productFinal.name }}</li>
           <li>quantity : {{ productFinal.quantity }}</li>
           <li>Price: {{ productFinal.price }}</li>

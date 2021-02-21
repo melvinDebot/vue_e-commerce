@@ -10,6 +10,7 @@
             img-top
             tag="article"
             class="mb-4"
+            align="center"
           >
             <b-card-text>
               <h5>Price: ${{ fruit.price }}.00</h5>
