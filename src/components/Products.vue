@@ -69,9 +69,9 @@ export default {
           cart: false,
         },
         {
-          id: 2,
+          id: 3,
           quantity: 1,
-          name: "Orange",
+          name: "Grape",
           price: 1,
           img: "@/assets/fruits/fruit1.jpg",
           cart: false,

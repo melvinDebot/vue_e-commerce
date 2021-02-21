@@ -17,7 +17,7 @@ export default {
   components: {
     Navbar,
     Carousel,
-    Products
+    Products,
   },
 };
 </script>
